@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 900px;
+    background-image: url(image/4545.jpg);
+    background-size: 100%;
+}
+.HeaderList{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 100%;
+    height: 100px; ;
+    background-color: rgb(255, 170, 0);
+}
+.HeaderList>ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#ffg{
+   margin-right: 300px;
+}
+.poi{
+    width:100% ;
+    height: 150px;
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+main{
+    width: 100%;
+    height: 1400px;
+    background-color: rgb(255, 170, 0);
+    display: grid;
+    grid-template-columns:50% 50% ;
+    grid-template-rows:50% 50%;
+}
+.MainCartPick{
+    grid-column:1/2 ;
+}
+.MainCartText{
+    grid-column:2/3 ;
+    color: #ffffff;
+    font-size: 40px;
+}
+.MainCartText2{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+    color: #ffffff;
+    font-size: 38px;
+}
+footer{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Footer1{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(104, 104, 104); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Footer2{
+    width: 100%;
+    height: 550;
+    background-color: rgb(104, 104, 104); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#FooterText{
+    width: 700px;
+}
+@
